@@ -1,0 +1,42 @@
+7/9/20, 10:20:00 PM	LogSuccess	@WordReport(Demo1 Smoke, Login) Login passed :D
+7/9/20, 10:20:00 PM	LogSuccess	@WordReport(Demo1 Smoke, Variation)
+7/9/20, 9:00:19 PM	LogSuccess	@WordReport(Demo1 Smoke, Tyrant)
+7/9/20, 8:30:10 PM	LogError	@WordReport(Demo1 Smoke, Zabbix) The database was not initialized before the test run
+
+7/9/20, 8:30:10 PM	LogError	@WordReport(Atlas Smoke, demo1)
+7/9/20, 9:00:19 PM	LogSuccess	@WordReport(Atlas Smoke, demo2)
+7/9/20, 10:20:00 PM	LogSuccess	@WordReport(Atlas Smoke, www)
+7/9/20, 8:30:10 PM	LogError	@WordReport(Atlas Smoke, ppp)
+7/9/20, 9:00:19 PM	LogSuccess	@WordReport(Atlas Smoke, ooo)
+7/9/20, 10:20:00 PM	LogSuccess	@WordReport(Atlas Smoke, fff)
+7/9/20, 8:30:10 PM	LogError	@WordReport(Atlas Smoke, eee)
+7/9/20, 9:00:19 PM	LogSuccess	@WordReport(Atlas Smoke, ddd)
+7/9/20, 10:20:00 PM	LogSuccess	@WordReport(Atlas Smoke, bbb)
+7/9/20, 8:30:10 PM	LogError	@WordReport(Atlas Smoke, yyy)
+7/9/20, 9:00:19 PM	LogSuccess	@WordReport(Atlas Smoke, zzz)
+7/9/20, 10:20:00 PM	LogSuccess	@WordReport(Atlas Smoke, abc)
+
+7/9/20, 8:30:10 PM	LogError	@WordReport(Multi Smoke, File Exchange)
+7/9/20, 9:00:19 PM	LogSuccess	@WordReport(Multi Smoke, Search)
+7/9/20, 10:20:00 PM	LogSuccess	@WordReport(Multi Smoke, Church)
+7/9/20, 8:30:10 PM	LogError	@WordReport(Multi Smoke, Moving Van)
+
+7/9/20, 8:30:10 PM	LogError	@WordReport(REST Smoke, Login) When login fails, the rest of the tests fail also
+
+7/9/20, 8:30:10 PM	LogError	@WordReport(Stand Software Smoke, Good Year)
+7/9/20, 8:30:10 PM	LogError	@WordReport(Stand Software Smoke, Media)
+7/9/20, 8:30:10 PM	LogError	@WordReport(Stand Software Smoke, Alpha)
+7/9/20, 8:30:10 PM	LogError	@WordReport(Stand Software Smoke, Jurassic)
+
+7/9/20, 8:30:10 PM	Log	Zabbix This should be ignored 1
+7/9/20, 9:00:19 PM	LogSuccess	This should be ignored 2
+7/9/20, 10:20:00 PM	LogError	This should be ignored 3
+7/9/20, 8:30:10 PM	Log	Zabbix This should be ignored 4
+7/9/20, 9:00:19 PM	LogSuccess	This should be ignored 5
+7/9/20, 10:20:00 PM	LogError	This should be ignored 6
+
+TO DO:
+Fix the comma parsing error
+
+
+
