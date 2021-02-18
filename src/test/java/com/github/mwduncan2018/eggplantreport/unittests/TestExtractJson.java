@@ -13,7 +13,7 @@ class TestExtractJson {
 	private static String sampleJsonKnownFields = "C:\\dev\\Java\\EggplantReport\\eggplant-report-conversion\\src\\test\\resources\\com\\github\\mwduncan2018\\eggplantreport\\unittests\\SampleJSON.json";
 
 	@Test
-	void testExtractJsonExtractWithUnknownFields() {
+	void test_GivenExtractIsCalled_WhenTheJsonHasUnknownFields_ThenAnExceptionShouldNotOccur_AndTheSizeOfEtlTestProceduresShouldBeFour() {
 		String fileName = sampleJsonUnknownFields;
 		ExtractJson extractJson = new ExtractJson(fileName);
 		ETLTestRun etlTestRun = extractJson.extract();
@@ -21,7 +21,7 @@ class TestExtractJson {
 	}
 
 	@Test
-	void testExtractJsonExtractWithKnownFields() {
+	void test_GivenExtractIsCalled_WhenTheJsonHasKnownFields_ThenAnExceptionShouldNotOccur_AndTheSizeOfEtlTestProceduresShouldBeFour() {
 		String fileName = sampleJsonKnownFields;
 		ExtractJson extractJson = new ExtractJson(fileName);
 		ETLTestRun etlTestRun = extractJson.extract();
