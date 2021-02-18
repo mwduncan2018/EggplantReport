@@ -1,4 +1,4 @@
-package com.github.mwduncan2018.eggplantwordreport.practice2;
+package com.github.mwduncan2018.eggplantreport.practice2;
 
 import java.util.ArrayList;
 import java.util.List;

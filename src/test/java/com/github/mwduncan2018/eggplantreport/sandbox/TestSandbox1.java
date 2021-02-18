@@ -1,5 +1,5 @@
 
-package com.github.mwduncan2018.eggplantwordreport.sandbox;
+package com.github.mwduncan2018.eggplantreport.sandbox;
 
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;

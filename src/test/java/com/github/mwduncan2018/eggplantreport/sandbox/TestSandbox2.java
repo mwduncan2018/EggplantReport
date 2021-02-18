@@ -1,4 +1,4 @@
-package com.github.mwduncan2018.eggplantwordreport.sandbox;
+package com.github.mwduncan2018.eggplantreport.sandbox;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -18,36 +18,7 @@ import org.apache.poi.xwpf.usermodel.XWPFDocument;
 import org.apache.poi.xwpf.usermodel.XWPFParagraph;
 import org.apache.poi.xwpf.usermodel.XWPFRun;
 
-import com.github.mwduncan2018.eggplantwordreport.legacydeletemewordreportgenerator.LegacyDeleteMe_WordReportGenerator;
-import com.github.mwduncan2018.eggplantwordreport.legacydeletemewordreportgenerator.LegacyDeleteMe_WordReportGeneratorFromJson;
-import com.github.mwduncan2018.eggplantwordreport.legacydeletemewordreportgenerator.LegacyDeleteMe_WordReportGeneratorFromText;
-
 class TestSandbox2 {
-
-	@Test
-	@Disabled
-	void testJson01() {
-		String readPath = "C:\\AutomationResults\\AutomationResults.json";
-		String writePath = "C:\\AutomationResults\\AutomationResults.docx";
-
-		LegacyDeleteMe_WordReportGenerator wordReportGenerator = new LegacyDeleteMe_WordReportGeneratorFromJson(readPath, writePath);
-		wordReportGenerator.extract();
-		wordReportGenerator.generate();
-
-		System.out.println("Complete testJson01");
-	}
-	
-	@Test
-	void test03() {
-		String readPath = "C:\\AutomationResults\\AutomationResults.txt";
-		String writePath = "C:\\AutomationResults\\AutomationResults.docx";
-
-		LegacyDeleteMe_WordReportGenerator wordReportGenerator = new LegacyDeleteMe_WordReportGeneratorFromText(readPath, writePath);
-		wordReportGenerator.extract();
-		wordReportGenerator.generate();
-
-		System.out.println("Complete test03");
-	}
 
 	@Test
 	@Disabled

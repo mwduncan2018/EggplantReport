@@ -1,24 +1,27 @@
-package com.github.mwduncan2018.eggplantwordreport.practice2;
+package com.github.mwduncan2018.eggplantreport.practice2;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
+import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlElementWrapper;
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
 
-@JsonPropertyOrder({ "name", "classname", "time", "displayname", "uniqueid" })
+@JsonPropertyOrder({ "name", "time", "displayname", "uniqueid" })
 @JsonInclude(JsonInclude.Include.NON_EMPTY)
-public class PracticeTcase {
+public class PracticeTsuite {
 
 	@JacksonXmlProperty(isAttribute = true)
 	private String name;
-	@JacksonXmlProperty(isAttribute = true)
-	private String classname;
 	@JacksonXmlProperty(isAttribute = true)
 	private String time;
 	@JacksonXmlProperty(isAttribute = true)
 	private String displayname;
 	@JacksonXmlProperty(isAttribute = true)
 	private String uniqueid;
-	private String failure;
+	@JacksonXmlElementWrapper(useWrapping = false)
+	private List<PracticeTcase> testcase;
 
 	public String getName() {
 		return name;
@@ -26,14 +29,6 @@ public class PracticeTcase {
 
 	public void setName(String name) {
 		this.name = name;
-	}
-
-	public String getClassname() {
-		return classname;
-	}
-
-	public void setClassname(String classname) {
-		this.classname = classname;
 	}
 
 	public String getTime() {
@@ -60,15 +55,16 @@ public class PracticeTcase {
 		this.uniqueid = uniqueid;
 	}
 
-	public String getFailure() {
-		return failure;
+	public List<PracticeTcase> getTestcase() {
+		return testcase;
 	}
 
-	public void setFailure(String failure) {
-		this.failure = failure;
+	public void setTestcase(List<PracticeTcase> testcase) {
+		this.testcase = testcase;
 	}
 
-	public PracticeTcase() {
+	public PracticeTsuite() {
+		testcase = new ArrayList<PracticeTcase>();
 	}
 
 }

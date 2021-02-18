@@ -1,4 +1,4 @@
-package com.github.mwduncan2018.eggplantwordreport.sandbox;
+package com.github.mwduncan2018.eggplantreport.sandbox;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -13,11 +13,11 @@ import org.junit.jupiter.api.Test;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
-import com.github.mwduncan2018.eggplantwordreport.practice1.Manufacturer;
-import com.github.mwduncan2018.eggplantwordreport.practice1.PhoneDetails;
-import com.github.mwduncan2018.eggplantwordreport.practice2.PracticeTcase;
-import com.github.mwduncan2018.eggplantwordreport.practice2.PracticeTrun;
-import com.github.mwduncan2018.eggplantwordreport.practice2.PracticeTsuite;
+import com.github.mwduncan2018.eggplantreport.practice1.Manufacturer;
+import com.github.mwduncan2018.eggplantreport.practice1.PhoneDetails;
+import com.github.mwduncan2018.eggplantreport.practice2.PracticeTcase;
+import com.github.mwduncan2018.eggplantreport.practice2.PracticeTrun;
+import com.github.mwduncan2018.eggplantreport.practice2.PracticeTsuite;
 
 class TestSandbox4 {
 
