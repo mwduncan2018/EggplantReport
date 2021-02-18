@@ -2,7 +2,7 @@ package com.github.mwduncan2018.eggplantreportconversion.pojos.eggplantjson;
 
 public class Root {
 	private Entries[] entries;
-	private String createdTimeStamp;
+	private String createdTimestamp;
 
 	public Entries[] getEntries() {
 		return entries;
@@ -12,12 +12,12 @@ public class Root {
 		this.entries = entries;
 	}
 
-	public String getCreatedTimeStamp() {
-		return createdTimeStamp;
+	public String getCreatedTimestamp() {
+		return createdTimestamp;
 	}
 
-	public void setCreatedTimeStamp(String createdTimeStamp) {
-		this.createdTimeStamp = createdTimeStamp;
+	public void setCreatedTimestamp(String createdTimestamp) {
+		this.createdTimestamp = createdTimestamp;
 	}
 
 }
