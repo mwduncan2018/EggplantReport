@@ -1,4 +1,4 @@
-package com.github.mwduncan2018.eggplantwordreport;
+package com.github.mwduncan2018.eggplantwordreport.sandbox;
 
 import java.io.File;
 import java.io.FileOutputStream;

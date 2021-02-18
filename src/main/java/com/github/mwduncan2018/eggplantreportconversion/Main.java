@@ -20,7 +20,7 @@ public class Main {
 	private static GenerateStrategy generateStrategy;
 
 	public static void main(String[] args) {
-		System.out.println("Running EggplantReportConversion.jar");
+		System.out.println("Running Eggplant Report Conversion...");
 
 		argsList = Arrays.asList(args);
 		try {
@@ -90,7 +90,7 @@ public class Main {
 				"\nThis JAR takes the results of an Eggplant test run, which can be the Eggplant JSON format or the Eggplant text output, and converts those test results into the JUnit XML format or a Word report.");
 		System.out.println("\nFour command line arguments are required:");
 		System.out.println(
-				"\tjava -jar eggplantreportconversion.jar <inputType> <inputFileReadLocation> <outputType> <outputFileWriteLocation>");
+				"\tjava -jar EggplantReportConversion*.jar <inputType> <inputFileReadLocation> <outputType> <outputFileWriteLocation>");
 		System.out.println("\nCommand Line Arguments:");
 		System.out.println("\t<inputType> can be -json or -text");
 		System.out.println("\t<inputFileReadLocation> is the location to read the input file");
@@ -98,15 +98,15 @@ public class Main {
 		System.out.println("\t<outputFileWriteLocation> is the location where the result file will be written");
 		System.out.println("\nEggplant JSON conversion to JUnit XML:");
 		System.out.println(
-				"\tjava -jar eggplantreportconversion.jar -json C:\\read\\path\\to\\eggplant.json -junit C:\\write\\path\\for\\junit.xml");
+				"\tjava -jar EggplantReportConversion*.jar -json C:\\read\\path\\to\\eggplant.json -junit C:\\write\\path\\for\\junit.xml");
 		System.out.println("\nEggplant JSON conversion to Word report:");
 		System.out.println(
-				"\tjava -jar eggplantreportconversion.jar -json C:\\read\\path\\to\\eggplant.json -word C:\\write\\path\\for\\wordreport.docx");
+				"\tjava -jar EggplantReportConversion*.jar -json C:\\read\\path\\to\\eggplant.json -word C:\\write\\path\\for\\wordreport.docx");
 		System.out.println("\nEggplant text output conversion to JUnit XML:");
 		System.out.println(
-				"\tjava -jar eggplantreportconversion.jar -text C:\\read\\path\\to\\eggplant.txt -junit C:\\write\\path\\for\\junit.xml");
+				"\tjava -jar EggplantReportConversion*.jar -text C:\\read\\path\\to\\eggplant.txt -junit C:\\write\\path\\for\\junit.xml");
 		System.out.println("\nEggplant text output conversion to Word report:");
 		System.out.println(
-				"\tjava -jar eggplantreportconversion.jar -text C:\\read\\path\\to\\eggplant.txt -word C:\\write\\path\\for\\wordreport.xml");
+				"\tjava -jar EggplantReportConversion*.jar -text C:\\read\\path\\to\\eggplant.txt -word C:\\write\\path\\for\\wordreport.xml");
 	}
 }

@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.util.Arrays;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.github.mwduncan2018.eggplantreportconversion.pojos.eggplantjson.Root;
 import com.github.mwduncan2018.eggplantreportconversion.pojos.reportconversion.ETLTest;
@@ -22,7 +23,7 @@ public class ExtractJson extends ExtractStrategy {
 	private void unmarshalJson() {
 		// Using Jackson to unmarshal the Eggplant test run JSON
 		try {
-			ObjectMapper objectMapper = new ObjectMapper();
+			ObjectMapper objectMapper = new ObjectMapper().configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
 			File file = new File(readPath);
 			root = objectMapper.readValue(file, Root.class);
 		} catch (IOException e) {

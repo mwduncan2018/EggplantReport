@@ -1,0 +1,137 @@
+{
+  "fieldDoesNotExist4": "test123",
+  "entries": [
+    {
+      "message": "Running Main.script",
+      "identifier": "START",
+      "timestamp": "2020-08-14 19:17:04.823 +0000"
+    },
+    {
+      "image": "Locators/Path/To/Image",
+      "otherProperties": {
+        "fieldDoesNotExist5": "testXYZ",
+        "foundRect": [
+          29,
+          10,
+          55,
+          16
+        ],
+        "Info": "Eggplant",
+        "Name": "Search"
+      },
+      "identifier": "LogWarning",
+      "message": "Image not found",
+      "contextInfo": "Could not find image while running script",
+      "handlerLine": 10,
+      "scriptName": "TestProcedures/Eastern Smoke.script",
+      "timestamp": "2020-08-14 19:17:05.823 +0000",
+      "handlerName": "on_maryland",
+      "fieldDoesNotExist6": "testABC"
+    },
+    {
+      "handlerName": "on_maryland",
+      "timestamp": "2020-08-14 22:17:04.823 +0000",
+      "message": "@Report(Eastern Smoke,Maryland)",
+      "scriptName": "TestProcedures/Eastern Smoke.script",
+      "handlerLine": 3,
+      "identifier": "LogSuccess"
+    },
+    {
+      "handlerName": "on_nebraska",
+      "timestamp": "2020-08-14 21:17:04.823 +0000",
+      "message": "@Report(Mountain Smoke,Nebraska)",
+      "scriptName": "TestProcedures/Mountain_Smoke.script",
+      "handlerLine": 3,
+      "identifier": "LogSuccess"
+    },
+    {
+      "handlerName": "on_virginia",
+      "timestamp": "2020-08-14 20:19:04.823 +0000",
+      "message": "@Report(Eastern Smoke,Virginia)",
+      "scriptName": "TestProcedures/Eastern_Smoke.script",
+      "handlerLine": 3,
+      "identifier": "LogSuccess"
+    },
+    {
+      "handlerName": "on_new_jersey",
+      "timestamp": "2020-08-14 19:17:04.823 +0000",
+      "message": "@Report(Eastern Smoke,New Jersey) Here is some extra text!",
+      "scriptName": "TestProcedures/Eastern_Smoke.script",
+      "handlerLine": 5,
+      "identifier": "LogSuccess"
+    },
+    {
+      "handlerName": "on_new_york",
+      "timestamp": "2020-08-14 19:17:04.823 +0000",
+      "message": "@Report(Eastern Smoke,New York)",
+      "scriptName": "TestProcedures/Eastern_Smoke.script",
+      "handlerLine": 10,
+      "identifier": "LogError"
+    },
+    {
+      "handlerName": "on_washington",
+      "timestamp": "2020-08-14 19:17:04.823 +0000",
+      "message": "@Report(Pacific Smoke,Washington)",
+      "scriptName": "TestProcedures/Pacific Smoke.script",
+      "handlerLine": 3,
+      "identifier": "LogSuccess"
+    },
+    {
+      "handlerName": "on_oregon",
+      "timestamp": "2020-08-14 19:17:04.823 +0000",
+      "message": "@Report(Pacific Smoke,Oregon)",
+      "scriptName": "TestProcedures/Pacific Smoke.script",
+      "handlerLine": 3,
+      "identifier": "LogSuccess"
+    },
+    {
+      "handlerName": "on_south_dakota",
+      "timestamp": "2020-08-14 19:17:04.823 +0000",
+      "message": "@Report(Mountain Smoke,South Dakota)",
+      "scriptName": "TestProcedures/Mountain Smoke.script",
+      "handlerLine": 15,
+      "identifier": "LogError"
+    },
+    {
+      "handlerName": "on_michigan",
+      "timestamp": "2020-08-14 19:17:04.823 +0000",
+      "message": "@Report(Central Smoke,Michigan)",
+      "scriptName": "TestProcedures/Central Smoke.script",
+      "handlerLine": 1,
+      "identifier": "LogSuccess"
+    },
+    {
+      "handlerName": "on_alabama",
+      "timestamp": "2020-08-14 19:17:04.823 +0000",
+      "message": "@Report(Central Smoke,Alabama)",
+      "scriptName": "TestProcedures/Central_Smoke.script",
+      "handlerLine": 1,
+      "identifier": "LogSuccess"
+    },
+    {
+      "handlerName": "on_north_dakota",
+      "timestamp": "2020-08-14 19:17:04.823 +0000",
+      "message": "@Report(Mountain Smoke,North Dakota)",
+      "scriptName": "TestProcedures/Mountain_Smoke.script",
+      "handlerLine": 1,
+      "identifier": "LogSuccess"
+    },
+    {
+      "handlerName": "on_arizona",
+      "timestamp": "2020-08-14 19:17:04.823 +0000",
+      "message": "@Report(Mountain Smoke,Arizona)",
+      "scriptName": "TestProcedures/Mountain_Smoke.script",
+      "handlerLine": 1,
+      "identifier": "LogSuccess"
+    },
+    {
+      "message": "Execution Time 0:33:12 Main.Script",
+      "identifier": "ABORTED",
+      "timestamp": "2020-08-14 19:17:10.111 +000",
+      "fieldDoesNotExist3": "123"
+    }
+  ],
+  "createdTimeStamp": "2020-08-14 19:17:04.901 +0000",
+  "fieldDoesNotExist1": "abc",
+  "fieldDoesNotExist2": "xyz"
+}

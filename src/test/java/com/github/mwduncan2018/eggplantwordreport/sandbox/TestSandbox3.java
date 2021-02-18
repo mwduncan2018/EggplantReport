@@ -1,4 +1,4 @@
-package com.github.mwduncan2018.eggplantwordreport;
+package com.github.mwduncan2018.eggplantwordreport.sandbox;
 
 import java.time.Instant;
 import java.time.LocalDate;
