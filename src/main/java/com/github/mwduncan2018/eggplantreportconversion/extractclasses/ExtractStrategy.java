@@ -12,7 +12,7 @@ public abstract class ExtractStrategy {
 
 	protected ETLTestRun testRun;
 	protected String readPath;
-	
+		
 	public ExtractStrategy(String readPath) {
 		this.readPath = readPath;
 		this.testRun = new ETLTestRun();
